@@ -42,7 +42,7 @@ function App() {
         return -1;
       } else if (a.name.first > b.name.first) {
         return 1;
-      };
+      }
     });
   }
 
