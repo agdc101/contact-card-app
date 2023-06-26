@@ -1,0 +1,16 @@
+.card-details-enter {
+    transform: translateY(-65%);
+}
+.card-details-enter-active {
+    transform: translateY(0%);
+    transition: transform 500ms ease;
+}
+.card-details-exit {
+    opacity:1;
+    transition: opacity 300ms ease, transform 650ms ease;
+    transform: translateY(0%);
+}
+.card-details-exit-active {
+    opacity:0.5;
+    transform: translateY(-65%);
+}

@@ -1,0 +1,43 @@
+.card-top {
+  display: flex;
+  padding:2rem 1.25rem;
+  position: relative;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px -8px 4px 4px rgb(227, 227, 227);
+  z-index:1;
+}
+
+.card-top p,
+.card-top h4 {
+  margin: 0 1rem;
+}
+
+.card-top h4 {
+  font-size: 1.2rem;
+  margin-bottom: .25rem;
+}
+
+.card-top-inner {
+  display: flex;
+  align-items: center;
+}
+
+.other-info {
+  width:60%;
+}
+
+.prof-pic {
+  border-radius: 50%;
+}
+
+.arrow-spin-down {
+  transition: all .4s ease;
+  transform: rotate(180deg);
+}
+.arrow-spin-up {
+  transition: all .4s ease;
+  transform: rotate(0deg);
+}
