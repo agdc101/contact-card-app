@@ -1,4 +1,5 @@
-import React, {useRef} from 'react';
+/* eslint-disable react/prop-types */
+import {useRef} from 'react';
 import classes from '../assets/modules/ContactCardBottom.module.css';
 import { CSSTransition } from 'react-transition-group';
 import '../assets/animate.css'

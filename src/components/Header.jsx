@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import classes from '../assets/modules/Header.module.css';
 
 const Header = (props) => {

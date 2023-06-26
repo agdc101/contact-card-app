@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import classes from '../assets/modules/ContactCardTop.module.css';
 
 const CardTop = (props) => {
