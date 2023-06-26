@@ -17,6 +17,7 @@ const ContactCards = (props) => {
         showDetails={showDetails} 
         handleArrowClick={handleArrowClick} 
         name={props.name} 
+        phone={props.phone}
         picture={props.picture} 
       />
       <CardBottom 

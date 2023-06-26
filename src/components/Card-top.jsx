@@ -10,7 +10,7 @@ const CardTop = (props) => {
         <img className={classes['prof-pic']} width="80" height="80" src={props.picture} alt="user-male-skin-type-7"/>
         <div className={classes['contact-info']}>
           <h4>{props.name}</h4>
-          <p>07415 715 715</p>
+          <p>{props.phone}</p>
         </div>
       </div>
       <img className={arrowClass} width="25" height="25" src="https://img.icons8.com/ios/50/collapse-arrow--v2.png" alt="collapse-arrow--v2"/>
